@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex:25%;
+    
+}
+
+.posts div.post {
+    margin:20px;
+    border:1px solid #eee;
+    padding:20px;
+}
